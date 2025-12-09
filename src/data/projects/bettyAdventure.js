@@ -7,7 +7,7 @@ import GreenSlime from "../../assets/videos/bettyAdventure/GreenSlime.mp4";
 import IceSlime from "../../assets/videos/bettyAdventure/IceSlime.mp4";
 import FireSlime from "../../assets/videos/bettyAdventure/FireSlime.mp4";
 import PlayerControllerVideo from "../../assets/videos/bettyAdventure/PlayerController.mp4";
-import PlayerAttackVideo from "../../assets/videos/bettyAdventure/PlayerAttack.mp4";
+import PlayerAttackVideo from "../../assets/videos/bettyAdventure/playerAttack.mp4";
 import TradingSystemVideo from "../../assets/videos/bettyAdventure/TradingSystem.mp4";
 
 // PDF IMPORTS
