@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "upload-blob": "node tools/uploadBlob.js",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -14,6 +15,7 @@
     "@react-pdf-viewer/core": "^3.12.0",
     "@react-pdf-viewer/default-layout": "^3.12.0",
     "@tailwindcss/vite": "^4.1.11",
+    "@vercel/blob": "^2.0.0",
     "lucide-react": "^0.542.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

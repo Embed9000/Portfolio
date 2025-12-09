@@ -4,8 +4,8 @@ export default createProject({
   title: "Anaria (2025)",
   slug: "anaria-2025",
 
-  videoUrl: "/videos/anaria/Anaria.mp4",
-  thumbnailUrl: "/videos/anaria/Anaria.mp4",
+  videoUrl: "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/anaria.mp4",
+  thumbnailUrl: "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/anaria.mp4",
 
   details: [
     { icon: "User", text: "1" },
