@@ -1,15 +1,15 @@
 import { createProject } from "../../utils/createProject";
 
 // VIDEOS
-import Detectivia from "../../assets/videos/detectivia/Detectivitatea.mp4";
+import Detectivia from "../../../public/videos/detectivia/Detectivitatea.mp4";
 
 // PDFs & CODES
-import CodeAiConection from "../../assets/pdf/detectivia/AiConection.pdf";
-import VoiceToText from "../../assets/pdf/detectivia/VoiceToText.pdf";
-import NpcControllerD from "../../assets/videos/detectivia/NpcControllerD.mp4";
-import NpcControllerDe from "../../assets/pdf/detectivia/NpcControllerD.pdf";
-import CaseFile from "../../assets/videos/detectivia/CaseFile.mp4";
-import CaseFileD from "../../assets/pdf/detectivia/CaseFile.pdf";
+import CodeAiConection from "../../../public/pdf/detectivia/AiConection.pdf";
+import VoiceToText from "../../../public/pdf/detectivia/VoiceToText.pdf";
+import NpcControllerD from "../../../public/videos/detectivia/NpcControllerD.mp4";
+import NpcControllerDe from "../../../public/pdf/detectivia/NpcControllerD.pdf";
+import CaseFile from "../../../public/videos/detectivia/CaseFile.mp4";
+import CaseFileD from "../../../public/pdf/detectivia/CaseFile.pdf";
 
 export default createProject({
   title: "Detectivia (2025)",

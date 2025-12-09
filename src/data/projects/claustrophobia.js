@@ -1,13 +1,13 @@
 import { createProject } from "../../utils/createProject";
 
 // VIDEOS
-import MainVideoClaustrophobia from "../../assets/videos/claustrophobia/MainVideoClaustrophobia.mp4";
-import ClaustraphobiaThumb from "../../assets/videos/claustrophobia/claustrofobie.mp4";
+import MainVideoClaustrophobia from "../../../public/videos/claustrophobia/MainVideoClaustrophobia.mp4";
+import ClaustraphobiaThumb from "../../../public/videos/claustrophobia/claustrofobie.mp4";
 
-import PlayerControllerClaustrophobia from "../../assets/videos/claustrophobia/PlayerControllerC.mp4";
-import WindowSystemClaustrophobia from "../../assets/videos/claustrophobia/WindowSystem.mp4";
-import FakeExitController from "../../assets/videos/claustrophobia/FakeExitSystem.mp4";
-import InventorySystem from "../../assets/videos/claustrophobia/InventorySystem.mp4";
+import PlayerControllerClaustrophobia from "../../../public/videos/claustrophobia/PlayerControllerC.mp4";
+import WindowSystemClaustrophobia from "../../../public/videos/claustrophobia/WindowSystem.mp4";
+import FakeExitController from "../../../public/videos/claustrophobia/FakeExitSystem.mp4";
+import InventorySystem from "../../../public/videos/claustrophobia/InventorySystem.mp4";
 
 export default createProject({
   title: "Claustraphobia (2023)",

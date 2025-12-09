@@ -1,12 +1,12 @@
 import { createProject } from "../../utils/createProject";
 
 // VIDEOS
-import Anaria from "../../assets/videos/anaria/Anaria.mp4";
+import Anaria from "../../../public/videos/anaria/Anaria.mp4";
 
 // PDF / VIDEO FILES
-import CabinetController from "../../assets/pdf/anaria/CabinetController.pdf";
-import DoorController from "../../assets/pdf/anaria/DoorController.pdf";
-import LockerController from "../../assets/pdf/anaria/LockerController.pdf";
+import CabinetController from "../../../public/pdf/anaria/CabinetController.pdf";
+import DoorController from "../../../public/pdf/anaria/DoorController.pdf";
+import LockerController from "../../../public/pdf/anaria/LockerController.pdf";
 
 export default createProject({
   title: "Anaria (2025)", 

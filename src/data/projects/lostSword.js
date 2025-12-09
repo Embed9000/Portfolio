@@ -1,27 +1,27 @@
 import { createProject } from "../../utils/createProject";
 
 // VIDEOS
-import LostSword from "../../assets/videos/lostSword/Lost sword.mp4";
+import LostSword from "../../../public/videos/lostSword/Lost sword.mp4";
 
 // PLAYER
-import PlayerAttackL from "../../assets/videos/lostSword/PlayerAttackL.mp4";
-import PlayerAttackLo from "../../assets/pdf/lostSword/PlayerAttackLo.pdf";
-import PlayerStats from "../../assets/videos/lostSword/PlayerStats.mp4";
-import PlayerStatsL from "../../assets/pdf/lostSword/StatsPlayer.pdf";
+import PlayerAttackL from "../../../public/videos/lostSword/PlayerAttackL.mp4";
+import PlayerAttackLo from "../../../public/pdf/lostSword/PlayerAttackLo.pdf";
+import PlayerStats from "../../../public/videos/lostSword/PlayerStats.mp4";
+import PlayerStatsL from "../../../public/pdf/lostSword/StatsPlayer.pdf";
 
 // INVENTORY
-import InventorySystemL from "../../assets/videos/lostSword/InventorySystemL.mp4";
-import InventorySystemLo from "../../assets/pdf/lostSword/InventorySystemL.pdf";
+import InventorySystemL from "../../../public/videos/lostSword/InventorySystemL.mp4";
+import InventorySystemLo from "../../../public/pdf/lostSword/InventorySystemL.pdf";
 
 // ENEMY
-import EnemyControllerL from "../../assets/videos/lostSword/EnemyControllerL.mp4";
-import EnemyControllerLo from "../../assets/pdf/lostSword/EnemyControllerL.pdf";
+import EnemyControllerL from "../../../public/videos/lostSword/EnemyControllerL.mp4";
+import EnemyControllerLo from "../../../public/pdf/lostSword/EnemyControllerL.pdf";
 
 // GUILD
-import GuildSystem from "../../assets/videos/lostSword/GuildSystem.mp4";
+import GuildSystem from "../../../public/videos/lostSword/GuildSystem.mp4";
 
 // THESIS
-import AnualTezis from "../../assets/pdf/lostSword/anualtezis.pdf";
+import AnualTezis from "../../../public/pdf/lostSword/anualtezis.pdf";
 
 export default createProject({
   title: "Lost Sword (2025)",

@@ -1,31 +1,31 @@
 import { createProject } from "../../utils/createProject";
 
 // MAIN MEDIA
-import Trailer from "../../assets/videos/anariaReborn/Trailer.mp4";
+import Trailer from "../../../public/videos/anariaReborn/Trailer.mp4";
 
 
 // CABINET
-import CabinetControllerAR from "../../assets/videos/anariaReborn/CabinetControllerAR.mp4";
-import CabinetControllerARE from "../../assets/pdf/anariaReborn/CabinetControllerAR.pdf";
+import CabinetControllerAR from "../../../public/videos/anariaReborn/CabinetControllerAR.mp4";
+import CabinetControllerARE from "../../../public/pdf/anariaReborn/CabinetControllerAR.pdf";
 
 // LOCKER
-import LockerControllerAR from "../../assets/videos/anariaReborn/LockerControllerAR.mp4";
-import LockerControllerARE from "../../assets/pdf/anariaReborn/LockerControllerAR.pdf";
+import LockerControllerAR from "../../../public/videos/anariaReborn/LockerControllerAR.mp4";
+import LockerControllerARE from "../../../public/pdf/anariaReborn/LockerControllerAR.pdf";
 
 // CLOCK
-import ClockController from "../../assets/videos/anariaReborn/ClockController.mp4";
-import ClockControllerA from "../../assets/pdf/anariaReborn/ClockController.pdf";
+import ClockController from "../../../public/videos/anariaReborn/ClockController.mp4";
+import ClockControllerA from "../../../public/pdf/anariaReborn/ClockController.pdf";
 
 // DOLL AI
-import DollAiController from "../../assets/videos/anariaReborn/DollAiController.mp4";
-import DollAiControllerA from "../../assets/pdf/anariaReborn/DollAiController.pdf";
+import DollAiController from "../../../public/videos/anariaReborn/DollAiController.mp4";
+import DollAiControllerA from "../../../public/pdf/anariaReborn/DollAiController.pdf";
 
 // PHONE
-import PhoneController from "../../assets/videos/anariaReborn/PhoneController.mp4";
-import PhoneControllerA from "../../assets/pdf/anariaReborn/PhoneController.pdf";
+import PhoneController from "../../../public/videos/anariaReborn/PhoneController.mp4";
+import PhoneControllerA from "../../../public/pdf/anariaReborn/PhoneController.pdf";
 
 // FEATURES
-import Features from "../../assets/videos/anariaReborn/Features.mp4";
+import Features from "../../../public/videos/anariaReborn/Features.mp4";
 
 export default createProject({
   title: "Anaria:REBORN (2025)",
