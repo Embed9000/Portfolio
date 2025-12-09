@@ -1,41 +1,47 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { MenuIcon, XIcon } from 'lucide-react'
+import  CV from '../assets/pdf/cv/Catalin_Tabiica_CV.pdf'
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true)
-      } else {
-        setIsScrolled(false)
-      }
+      setIsScrolled(window.scrollY > 50)
     }
+
     window.addEventListener('scroll', handleScroll)
-    return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
+    return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
   const scrollToSection = (id) => {
     const element = document.getElementById(id)
     if (element) {
-      element.scrollIntoView({
-        behavior: 'smooth',
-      })
+      element.scrollIntoView({ behavior: 'smooth' })
       setIsMenuOpen(false)
     }
   }
+
+  const menuItems = ['home', 'about', 'writings', 'projects', 'education', 'contact']
+
   return (
     <header
-      className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-gray-900/95 shadow-lg backdrop-blur-sm' : 'bg-transparent'}`}
+      className={`fixed w-full z-50 transition-all duration-300 ${
+        isScrolled ? 'bg-gray-900/95 shadow-lg backdrop-blur-sm' : 'bg-transparent'
+      }`}
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+        {/* LOGO */}
         <div className="text-2xl font-bold text-purple-500">
-          <span className="text-white">Tabiica </span>Catalin
+          <a href="#">
+            <span className="text-white">Tăbîică </span>Cătălin
+            </a>
         </div>
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-8">
-          {['home', 'about','writings','projects','education','contact'].map((item) => (
+
+        {/* DESKTOP NAVIGATION */}
+        <nav className="hidden md:flex items-center space-x-8">
+          {menuItems.map((item) => (
             <button
               key={item}
               onClick={() => scrollToSection(item)}
@@ -44,8 +50,19 @@ const Header = () => {
               {item}
             </button>
           ))}
+
+          {/* CV BUTTON */}
+          <a
+            href={CV}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-1 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition font-semibold"
+          >
+            Resume
+          </a>
         </nav>
 
+        {/* MOBILE MENU BUTTON */}
         <button
           className="md:hidden text-white"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -54,10 +71,11 @@ const Header = () => {
         </button>
       </div>
 
+      {/* MOBILE MENU */}
       {isMenuOpen && (
         <div className="md:hidden bg-gray-800 shadow-xl">
           <div className="container mx-auto px-4 py-2">
-            {['home', 'about','writings', 'projects','education','contact'].map((item) => (
+            {menuItems.map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
@@ -66,10 +84,21 @@ const Header = () => {
                 {item}
               </button>
             ))}
+
+            {/* CV BUTTON MOBILE */}
+            <a
+              href={CV}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full text-left py-3 text-purple-400 hover:text-purple-300 transition-colors border-b border-gray-700"
+            >
+              Resume
+            </a>
           </div>
         </div>
       )}
     </header>
   )
 }
+
 export default Header

@@ -1,72 +1,71 @@
-import React, { useState } from 'react'
-import emailjs from '@emailjs/browser'
-import { useRef } from 'react'
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
 import {
   Mail,
   MapPin,
   Phone,
   Send,
-  Github,
   Linkedin,
-  Twitter,
   Instagram,
-} from 'lucide-react'
+} from "lucide-react";
+import BlueSky from "../assets/icons/Bluesky--Streamline-Simple-Icons.svg";
+import Steam from "../assets/icons/steam-svgrepo-com.svg";
 
-
-export default function ContactSection(){
+export default function ContactSection() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
-  })
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [submitMessage, setSubmitMessage] = useState(null)
-  const formRef = useRef(null)
-  
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitMessage, setSubmitMessage] = useState(null);
+  const formRef = useRef(null);
+
   const handleChange = (e) => {
-    const { name, value } = e.target
+    const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
       [name]: value,
-    }))
-  }
+    }));
+  };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    setIsSubmitting(true)
+    e.preventDefault();
+    setIsSubmitting(true);
     emailjs
       .sendForm(
-        'service_swkhko5',
-        'template_32qy06h',   
+        "service_swkhko5",
+        "template_32qy06h",
         formRef.current,
-        '9I8dXQTpOjHayaXuL'
+        "9I8dXQTpOjHayaXuL"
       )
       .then(
         () => {
-          setIsSubmitting(false)
+          setIsSubmitting(false);
           setSubmitMessage({
-            type: 'success',
+            type: "success",
             text: "Thank you for your message! I'll get back to you soon.",
-          })
+          });
           setFormData({
-            name: '',
-            email: '',
-            subject: '',
-            message: '',
-          })
-          setTimeout(() => setSubmitMessage(null), 5000)
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
+          });
+          setTimeout(() => setSubmitMessage(null), 5000);
         },
         () => {
-          setIsSubmitting(false)
+          setIsSubmitting(false);
           setSubmitMessage({
-            type: 'error',
+            type: "error",
             text: "Something went wrong. Please try again later.",
-          })
-          setTimeout(() => setSubmitMessage(null), 5000)
+          });
+          setTimeout(() => setSubmitMessage(null), 5000);
         }
-      )
-  }
+      );
+  };
 
   return (
     <section id="contact" className="py-20 bg-gray-900 w-full text-white">
@@ -81,7 +80,6 @@ export default function ContactSection(){
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-
           <div>
             <h3 className="text-2xl font-semibold mb-6 text-purple-400">
               Contact Information
@@ -115,9 +113,7 @@ export default function ContactSection(){
                 <MapPin className="h-6 w-6 text-purple-500 mr-4 mt-1" />
                 <div>
                   <h4 className="text-lg font-medium mb-1">Location</h4>
-                  <p className="text-gray-300">
-                    Chisinau, Moldova
-                  </p>
+                  <p className="text-gray-300">Chisinau, Moldova</p>
                 </div>
               </div>
             </div>
@@ -126,28 +122,38 @@ export default function ContactSection(){
             </h3>
             <div className="flex space-x-4">
               <a
-                href="#"
-                className="h-12 w-12 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 hover:text-purple-400 hover:bg-gray-700 transition-colors"
-              >
-                <Github className="h-6 w-6" />
-              </a>
-              <a
-                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/tabiica-catalin-683221227/"
                 className="h-12 w-12 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 hover:text-purple-400 hover:bg-gray-700 transition-colors"
               >
                 <Linkedin className="h-6 w-6" />
               </a>
               <a
-                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://bsky.app/profile/voidembergames.bsky.social"
                 className="h-12 w-12 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 hover:text-purple-400 hover:bg-gray-700 transition-colors"
+                aria-label="BlueSky"
               >
-                <Twitter className="h-6 w-6" />
+                <img src={BlueSky} alt="BlueSky" className="h-6 w-6" />
               </a>
               <a
-                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/cata.kun0/"
                 className="h-12 w-12 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 hover:text-purple-400 hover:bg-gray-700 transition-colors"
               >
                 <Instagram className="h-6 w-6" />
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://store.steampowered.com/search/?developer=VOIDEMBER"
+                className="h-12 w-12 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 hover:text-purple-400 hover:bg-gray-700 transition-colors"
+              >
+                <img src={Steam} alt="Steam" className="h-7 w-7" />
+
               </a>
             </div>
           </div>
@@ -157,9 +163,9 @@ export default function ContactSection(){
             {submitMessage && (
               <div
                 className={`p-4 rounded-lg mb-6 ${
-                  submitMessage.type === 'success'
-                    ? 'bg-green-900/50 text-green-300'
-                    : 'bg-red-900/50 text-red-300'
+                  submitMessage.type === "success"
+                    ? "bg-green-900/50 text-green-300"
+                    : "bg-red-900/50 text-red-300"
                 }`}
               >
                 {submitMessage.text}
@@ -281,5 +287,5 @@ export default function ContactSection(){
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -8,12 +8,13 @@ export default function ModalWrapper({ open, onClose, children }) {
         flex justify-center items-center 
         z-[9999] p-4 
         bg-transparent 
-        backdrop-blur-md    /* AICI E BLURUL */
+        backdrop-blur-md
       "
       onClick={onClose}
     >
       <div
         className="
+          relative
           bg-gray-900 
           rounded-xl p-4 
           max-h-[90vh] overflow-y-auto 
@@ -24,6 +25,8 @@ export default function ModalWrapper({ open, onClose, children }) {
         onClick={(e) => e.stopPropagation()}
       >
         {children}
+        
+
       </div>
     </div>
   );

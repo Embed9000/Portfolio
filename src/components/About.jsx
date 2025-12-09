@@ -18,6 +18,21 @@ export const AboutSection = () => {
       ],
     },
     {
+      category: 'Sound Engines',
+      items: [
+        {
+          name: 'FMOD',
+          level: 4,
+          color: 'bg-red-500',
+        },
+        {
+          name: 'Wwise',
+          level: 3,
+          color: 'bg-red-500',
+        },
+      ],
+    },
+    {
       category: 'Programming',
       items: [
         {
@@ -33,6 +48,11 @@ export const AboutSection = () => {
         {
           name: 'Python',
           level: 5,
+          color: 'bg-green-500',
+        },
+        {
+          name: 'Java',
+          level: 4,
           color: 'bg-green-500',
         },
       ],
@@ -125,7 +145,7 @@ export const AboutSection = () => {
           <h3 className="text-2xl font-semibold mb-8 text-center text-purple-400">
             My Skills
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16">
             {skills.map((skillGroup) => (
               <div
                 key={skillGroup.category}

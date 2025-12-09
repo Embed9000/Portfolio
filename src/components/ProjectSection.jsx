@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ProjectCard } from "./ProjectCard";
 import ModalWrapper from "./ModalWrapper";
 import ProjectDetailPage from "./ProjectDetailPage";
-import { projects } from "../data/projects";
+import { projects } from "../data";
 
 export const ProjectsSection = () => {
   const [activeProject, setActiveProject] = useState(null);

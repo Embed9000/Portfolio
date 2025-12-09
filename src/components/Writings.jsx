@@ -1,6 +1,6 @@
 import { Book, ExternalLink } from 'lucide-react'
-import img1 from '../assets/38d91215da70a0248f54142a067ac9ab.jpg'
-import img2 from '../assets/pixlr-image-generator-0ff488c8-f060-4e8d-b4a7-708fba2ba619-modified.png'
+import img1 from '../assets/images/photo_2025-12-09_18-42-23.jpg'
+import img2 from '../assets/images/photo_2025-12-09_18-42-26.jpg'
 const Writings = () => (
  <section className="relative py-16 sm:py-20" id='writings'>
       <div
@@ -21,21 +21,16 @@ const Writings = () => (
               <a href="https://sites.google.com/view/cata-kun/home/theplayerblack?authuser=0" target='blank'><img 
               src={img1} 
               alt="" 
-              className='rounded-2xl w-full h-full object-cover'/></a>
-              <a href='https://sites.google.com/view/cata-kun/home/theplayerblack?authuser=0' target='blank' className='flex justify-center text-white pt-3  '><Book/>The Player Black – 15 chapters</a>
+              className=' w-full  object-cover'/></a>
               
             </article>
             <article
-              className="group relative rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:shadow-md dark:border-gray-800 dark:bg-gray-900 hover:scale-[1.02]"
+              className="group relative border border-gray-200 bg-white shadow-sm transition hover:shadow-md dark:border-gray-800 dark:bg-gray-900 hover:scale-[1.02]"
             >
               <a href="https://sites.google.com/view/novelscatakun/pagina-de-pornire?authuser=5" target='blank'><img 
               src={img2}         
               alt="" 
-              className='rounded-2xl w-full h-full object-cover'/></a>
-
-              <a href='https://sites.google.com/view/novelscatakun/pagina-de-pornire?authuser=5' target='blank' className='flex justify-center text-white pt-3'><Book/>Black Moon – 21 chapters</a>
-
-
+              className=' w-full object-cover'/></a>
             </article>
           
         </div>
