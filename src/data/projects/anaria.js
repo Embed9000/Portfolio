@@ -4,10 +4,6 @@ export default createProject({
   title: "Anaria (2025)",
   slug: "anaria-2025",
 
-  description:
-    "This slow-developed horror story game challenges you to uncover the hidden truth and escape the mysterious world you’re trapped in, unraveling the story as you progress.",
-
-  // 🎥 VIDEO DIRECT DIN PUBLIC
   videoUrl: "/videos/anaria/Anaria.mp4",
   thumbnailUrl: "/videos/anaria/Anaria.mp4",
 
@@ -16,6 +12,8 @@ export default createProject({
     { icon: "Clock", text: "3 Years" },
     { icon: "Cube", text: "Unity" },
   ],
+
+
 
   about: `I started this project while I was still learning Unity and game design, right after releasing my first game on Google Play, The Rabbit (Demo). Wanting to create something more ambitious, I moved on to developing a 3D game for PC. The project was envisioned as a horror experience built around a captivating story.`,
 
