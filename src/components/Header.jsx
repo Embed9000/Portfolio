@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { MenuIcon, XIcon } from 'lucide-react'
-import  CV from '../assets/pdf/cv/Catalin_Tabiica_CV.pdf'
+import  CV from '../../public/pdf/cv/Catalin_Tabiica_CV.pdf'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
