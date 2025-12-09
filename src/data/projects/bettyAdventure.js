@@ -12,8 +12,8 @@ import TradingSystemVideo from "../../assets/videos/bettyAdventure/TradingSystem
 
 // PDF IMPORTS
 import SlimeController from "../../assets/pdf/bettyAdventure/SlimeController.pdf";
-import PlayerControllerPdf from "../../assets/pdf/bettyAdventure/playerController.pdf";
-import PlayerAttackPdf from "../../assets/pdf/bettyAdventure/playerAttack.pdf";
+import PlayerControllerPdf from "../../assets/pdf/bettyAdventure/PlayerController.pdf";
+import PlayerAttackPdf from "../../assets/pdf/bettyAdventure/PlayerAttack.pdf";
 import TradingSystemPdf from "../../assets/pdf/bettyAdventure/TradingSystem.pdf";
 
 export default createProject({
