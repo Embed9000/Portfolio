@@ -15,7 +15,7 @@ import ProjectileController from "../../assets/videos/kokomarka/ProjectileContro
 import PlayerControllerKokopdf from "../../assets/pdf/kokomarka/playerControllerKoko.pdf";
 import StatsPlayerK from "../../assets/pdf/kokomarka/StatsPlayerK.pdf";
 import LevelUpManagerK from "../../assets/pdf/kokomarka/LevelUpManagerK.pdf";
-import NpcControllerK from "../../assets/pdf/kokomarka/NpcControllerk.pdf";
+import NpcControllerK from "../../assets/pdf/kokomarka/NpcControllerK.pdf";
 import EnemyControllerK from "../../assets/pdf/kokomarka/EnemyControllerK.pdf";
 import BossControllerK from "../../assets/pdf/kokomarka/BossControllerK.pdf";
 import ProjectileControllerK from "../../assets/pdf/kokomarka/ProjectileControllerK.pdf";
