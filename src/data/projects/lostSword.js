@@ -21,7 +21,7 @@ import EnemyControllerLo from "../../assets/pdf/lostSword/EnemyControllerL.pdf";
 import GuildSystem from "../../assets/videos/lostSword/GuildSystem.mp4";
 
 // THESIS
-import AnualTezis from "../../assets/pdf/lostSword/AnualTezis.pdf";
+import AnualTezis from "../../assets/pdf/lostSword/anualtezis.pdf";
 
 export default createProject({
   title: "Lost Sword (2025)",
