@@ -1,7 +1,7 @@
 import { createProject } from "../../utils/createProject";
 
 // VIDEOS
-import LostSword from "../../assets/videos/lostSword/Lost Sword.mp4";
+import LostSword from "../../assets/videos/lostSword/Lost sword.mp4";
 
 // PLAYER
 import PlayerAttackL from "../../assets/videos/lostSword/PlayerAttackL.mp4";
