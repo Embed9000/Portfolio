@@ -1,15 +1,15 @@
 import { createProject } from "../../utils/createProject";
 
 // VIDEOS
-import KokomarkaMainVideo from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/KokomarkaMainVideo-2YhKxTFAHYJ8lWseGcZELMIeK36k9l.mp4";
-import KokomarkaThumb from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/KokomarkaMainVideo-2YhKxTFAHYJ8lWseGcZELMIeK36k9l.mp4";
+const KokomarkaMainVideo = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/KokomarkaMainVideo-2YhKxTFAHYJ8lWseGcZELMIeK36k9l.mp4";
+const KokomarkaThumb = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/KokomarkaMainVideo-2YhKxTFAHYJ8lWseGcZELMIeK36k9l.mp4";
 
-import PlayerControllerKoko from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerControllerKoko-xCVX1kLBHDhbOWUhxycjuG6MNNlP3u.mp4";
-import LevelUp from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/LevelUp-wgKSn0NzWN1PgzHdvrWqjxRScWly4I.mp4";
-import NpcController from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/NpcController-i0MM2tHkH6cMMwg1tRLvv4KT2PiOQS.mp4";
-import EnemyControlller from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/EnemyControlller-8cIp2sLgP1cfs2Z34sgappDnfEwBpA.mp4";
-import BossController from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/BossController-OG281s91kUvvBhPPpualQNLeThYogD.mp4";
-import ProjectileController from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/ProjectileController-n1TfGInXNOh9Jv7Lz8ZdUOSxYVNbdB.mp4";
+const PlayerControllerKoko = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerControllerKoko-xCVX1kLBHDhbOWUhxycjuG6MNNlP3u.mp4";
+const LevelUp = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/LevelUp-wgKSn0NzWN1PgzHdvrWqjxRScWly4I.mp4";
+const NpcController = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/NpcController-i0MM2tHkH6cMMwg1tRLvv4KT2PiOQS.mp4";
+const EnemyControlller = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/EnemyControlller-8cIp2sLgP1cfs2Z34sgappDnfEwBpA.mp4";
+const BossController = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/BossController-OG281s91kUvvBhPPpualQNLeThYogD.mp4";
+const ProjectileController = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/ProjectileController-n1TfGInXNOh9Jv7Lz8ZdUOSxYVNbdB.mp4";
 
 // PDFs
 import PlayerControllerKokopdf from "/pdf/kokomarka/playerControllerKoko.pdf";
