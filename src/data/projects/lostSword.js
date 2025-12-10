@@ -1,24 +1,24 @@
 import { createProject } from "../../utils/createProject";
 
 // VIDEOS
-const LostSword = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Lost%20sword-E8EWqTKm9EOwthf6pYRXhBagT2lbkR.mp4";
+const LostSword = "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Lost%20Sword/MainVideo/LostSword.mp4";
 
 // PLAYER
-const PlayerAttackL = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerAttackL-1V4kjiRsd1ySXkU7WdnOwusrzuZ2dB.mp4";
+const PlayerAttackL = "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Lost%20Sword/PlayerAttack/PlayerAttack.mp4";
 import PlayerAttackLo from "/pdf/lostSword/PlayerAttackLo.pdf";
-const PlayerStats = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerStats-0RTYIOJGdAPEDo5vFC8RV9GZyJpmu0.mp4";
+const PlayerStats = "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Lost%20Sword/PlayerStats/PlayerStats.mp4";
 import PlayerStatsL from "/pdf/lostSword/StatsPlayer.pdf";
 
 // INVENTORY
-const InventorySystemL = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/InventorySystemL-EBS2PR2EkIUXV0fh8eLYaiT8C98FaJ.mp4";
+const InventorySystemL = "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Lost%20Sword/InventorySystem/InventorySystem.mp4";
 import InventorySystemLo from "/pdf/lostSword/InventorySystemL.pdf";
 
 // ENEMY
-const EnemyControllerL = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/EnemyControllerL-DLQ3fUBJueMO5QstdunxQqmbytBzAs.mp4";
+const EnemyControllerL = "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Lost%20Sword/EnemyController/EnemyController.mp4";
 import EnemyControllerLo from "/pdf/lostSword/EnemyControllerL.pdf";
 
 // GUILD
-const GuildSystem = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/GuildSystem-jhsiCf9KPZHVnChPznrU9RaopQ2kfC.mp4";
+const GuildSystem = "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Lost%20Sword/GuildSystem/GuildSystem.mp4";
 
 // THESIS
 import AnualTezis from "/pdf/lostSword/anualtezis.pdf";

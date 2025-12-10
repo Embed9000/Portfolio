@@ -2,13 +2,13 @@ import { createProject } from "../../utils/createProject";
 
 // VIDEOS
 const Detectivia =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Detectivitatea-Y1UwPWXFBsMmDFznrDX4JxKs9tzX3W.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Detectivia/MainVideo/Detectivitatea.mp4";
 
 const NpcControllerD =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/NpcControllerD-DrYcFsmQTs7TFIM5DASOOBxhNGFLCQ.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Detectivia/NpcController/NpcController.mp4";
 
 const CaseFile =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/CaseFile-EIzhwGWgIXYWaeYKo1GWn5MqOMD0TZ.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Detectivia/CaseFile/CaseFile.mp4";
 
 // PDFs & CODES
 import CodeAiConection from "/pdf/detectivia/AiConection.pdf";

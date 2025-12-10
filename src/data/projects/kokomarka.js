@@ -1,15 +1,15 @@
 import { createProject } from "../../utils/createProject";
 
 // VIDEOS
-const KokomarkaMainVideo = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/KokomarkaMainVideo-2YhKxTFAHYJ8lWseGcZELMIeK36k9l.mp4";
-const KokomarkaThumb = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/KokomarkaMainVideo-2YhKxTFAHYJ8lWseGcZELMIeK36k9l.mp4";
+const KokomarkaMainVideo = "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Kokomarka/MainVideo/KokomarkaMainVideo.mp4";
+const KokomarkaThumb = "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Kokomarka/MainVideo/KokomarkaMainVideo.mp4";
 
-const PlayerControllerKoko = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerControllerKoko-xCVX1kLBHDhbOWUhxycjuG6MNNlP3u.mp4";
-const LevelUp = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/LevelUp-wgKSn0NzWN1PgzHdvrWqjxRScWly4I.mp4";
-const NpcController = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/NpcController-i0MM2tHkH6cMMwg1tRLvv4KT2PiOQS.mp4";
-const EnemyControlller = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/EnemyControlller-8cIp2sLgP1cfs2Z34sgappDnfEwBpA.mp4";
-const BossController = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/BossController-OG281s91kUvvBhPPpualQNLeThYogD.mp4";
-const ProjectileController = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/ProjectileController-n1TfGInXNOh9Jv7Lz8ZdUOSxYVNbdB.mp4";
+const PlayerControllerKoko = "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Kokomarka/PlayerController/PlayerController.mp4";
+const LevelUp = "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Kokomarka/LevelUpManager/LevelUp.mp4";
+const NpcController = "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Kokomarka/NpcController/NpcController.mp4";
+const EnemyControlller = "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Kokomarka/EnemyController/EnemyControlller.mp4";
+const BossController = "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Kokomarka/BossController/BossController.mp4";
+const ProjectileController = "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Kokomarka/ProjectileController/ProjectileController.mp4";
 
 // PDFs
 import PlayerControllerKokopdf from "/pdf/kokomarka/playerControllerKoko.pdf";

@@ -2,31 +2,31 @@ import { createProject } from "../../utils/createProject";
 
 // VIDEO IMPORTS
 const TinyCreaturesMainVideo =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/TinyCreaturesMainVideo-VTIloLNZNxy84nVz0alUI8dioypdUq.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Tiny%20Creatures/MainVideo/TinyCreatures.mp4";
 
 const TinyCreatures =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Tiny%20Creatures-bL2eV0SUSxNGJ2MjgiYVHhaXd1IzQS.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Tiny%20Creatures/MainVideo/TinyCreatures.mp4";
 
 const GreenSlimeVideo =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/GreenSlime-YE5rM0yKAYwUBcVIQGAgP9YaEfpjNb.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Tiny%20Creatures/SlimeController/GreenSlime.mp4";
 
 const IceSlimeVideo =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/IceSlime-x1wlcTAlnGJNY7Q5n6zyWg1pYQepdZ.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Tiny%20Creatures/SlimeController/IceSlime.mp4";
 
 const FireSlimeVideo =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/FireSlime-prB66rJWoQcGnZw4tURhDoJtTxRfII.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Tiny%20Creatures/SlimeController/FireSlime.mp4";
 
 const SpawnSlime =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/SpawnSlime-YrWjZ0hAQaQRkK1u81HkWuyefWsB7Z.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Tiny%20Creatures/SpawnSlime/SpawnSlime.mp4";
 
 const PlayerControllerVideoURL =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerController-Tyv2iR3dtq5NrGAjA7kP1ETGftPkxU.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Tiny%20Creatures/PlayerController/PlayerController.mp4";
 
 const PlayerAttackVideoURL =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerAttack-vbg2qzqpIuoHpDT57Zj9mwG6GGcqtI.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Tiny%20Creatures/PlayerAttack/PlayerAttack.mp4";
 
 const TradingSystemVideoURL =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/TradingSystem-h7QZhxJlhyFUiYfmlkkTcBaw0z9zYU.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Tiny%20Creatures/TradingSystem/TradingSystem.mp4";
 
 
 // PDF IMPORTS

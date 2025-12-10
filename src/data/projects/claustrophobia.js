@@ -2,22 +2,22 @@ import { createProject } from "../../utils/createProject";
 
 // VIDEOS
 const MainVideoClaustrophobia =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/MainVideoClaustrophobia-M6x0a7PoPj4OXXPnXh8MHxBOUm4kg7.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Claustrophobia/MainVideo/MainVideoClaustrophobia.mp4";
 
 const ClaustraphobiaThumb =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/claustrofobie-vz9xO7ltGZD5HuS7la475Hcpl9b3Fu.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Claustrophobia/MainVideo/MainVideoClaustrophobia.mp4";
 
 const PlayerControllerClaustrophobia =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerControllerC-Y7CTzU89l1hjXlSYelcRSLEYSR541m.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Claustrophobia/PlayerController/PlayerControllerC.mp4";
 
 const WindowSystemClaustrophobia =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/WindowSystem-watkAsG9a7D1OGGumqCUi2HwXALy29.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Claustrophobia/WindowSystem/WindowSystem.mp4";
 
 const FakeExitController =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/FakeExitSystem-YJn1jMlcj7Yt2Y5Pr3oq480H6p6GDL.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Claustrophobia/FakeExitSystem/FakeExitSystem.mp4";
 
 const InventorySystem =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/InventorySystem-jyzv6k2rsSfWvZsdqwQUZRQDLAefwn.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/Claustrophobia/InventorySystem/InventorySystem.mp4";
 
 
 export default createProject({

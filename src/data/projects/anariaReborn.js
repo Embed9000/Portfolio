@@ -2,31 +2,31 @@ import { createProject } from "../../utils/createProject";
 
 //Videos
 const Trailer =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Trailer-xI0MisDUpp6uTAPjkR6t8QI97sSwd0.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/ANARIA_Reborn/MainVideo/Anaria_Reborn_Trailer.mp4";
 
 const anariaRebornVideo = 
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Anaria_Reborn-NSpyIY319cQgmNiwbcJTiNJro1RURv.mp4"
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/ANARIA_Reborn/MainVideo/Anaria_Reborn_Trailer.mp4"
 
 const CabinetControllerAR =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/CabinetControllerAR-qBeSw1PUfLzuoOcaJ1GeBdehb52Pnr.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/ANARIA_Reborn/CabinetController/CabinetController.mp4";
 
 const LockerControllerAR =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/LockerControllerAR-f1KLud5k8aycXjQcbHdGH7O2CAaHFn.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/ANARIA_Reborn/LockerController/LockerController.mp4";
 
 const ClockController =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/ClockController-UvTERmfy5jVU5luNsLfvba3y1PWNGu.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/ANARIA_Reborn/ClockController/ClockController.mp4";
 
 const DollAiController =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/DollAiController-zCwX47Kg0LFZxOwhAjXdCIdrlvOcCO.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/ANARIA_Reborn/DollAiController/DollAiController.mp4";
 
 const PhoneController =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PhoneController-frIHAD2NS9w2jKIpxBp133hVuuHwqP.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/ANARIA_Reborn/PhoneController/PhoneController.mp4";
 
 const FeaturesVideo =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Features-tRK9dhoviJzuBNurmE1MwIQYLrgGXp.mp4";
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/ANARIA_Reborn/Features/Features.mp4";
 
 const DoorControllerVideo =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/DoorController-1FycYER3o66Xa54v1yO3YBsDUb4AjH.mp4"
+  "https://pub-7268fd82ea9d46f4b492871f25fe59e8.r2.dev/ANARIA_Reborn/DoorController/DoorController.mp4"
 
 
 // CABINET
