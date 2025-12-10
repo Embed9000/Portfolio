@@ -4,6 +4,9 @@ import { createProject } from "../../utils/createProject";
 const Trailer =
   "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Trailer-xI0MisDUpp6uTAPjkR6t8QI97sSwd0.mp4";
 
+const anariaRebornVideo = 
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Anaria_Reborn-NSpyIY319cQgmNiwbcJTiNJro1RURv.mp4"
+
 const CabinetControllerAR =
   "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/CabinetControllerAR-qBeSw1PUfLzuoOcaJ1GeBdehb52Pnr.mp4";
 
@@ -53,6 +56,7 @@ export default createProject({
     "This project is a vastly improved, professional upgrade of the original Anaria game. The story stays the same, but gameplay, design, and quality are greatly enhanced in every aspect.",
 
   videoUrl: Trailer,
+  thumbnailUrl: anariaRebornVideo,
 
 details: [
   { icon: "User", text: "1" },

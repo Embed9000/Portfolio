@@ -43,6 +43,8 @@ export const ProjectCard = ({
             <video
               src={videoUrl}
               poster={thumbnailUrl}
+              loading="lazy"
+              preload="none"
               className="w-full h-full object-cover"
               loop
               muted

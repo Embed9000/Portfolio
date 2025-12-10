@@ -30,7 +30,7 @@ export default createProject({
   description:
     "Created for my year-end thesis, inspired by Skyrim and Elden Ring. You’re a lost hero defending an Orc village while trying to recover your forgotten memories.",
   videoUrl: LostSword,
-  thumbnailUrl: LostSword,
+  thumbnailUrl: PlayerAttackL,
 
 details: [
   { icon: "User", text: "1" },

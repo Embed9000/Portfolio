@@ -40,11 +40,14 @@ export default function ProjectDetailPage({ modalProject }) {
       return (
         <div key={key} className="w-full flex justify-center items-center my-4">
           <video
-            src={val}
-            className="w-full max-w-xl rounded-lg"
-            loop
-            muted
-            autoPlay
+        src={val}
+        className="w-full max-w-xl rounded-lg"
+        loop
+        muted
+        autoPlay
+        preload="none"
+        playsInline
+        controls={false}
             
           />
         </div>
@@ -74,6 +77,8 @@ export default function ProjectDetailPage({ modalProject }) {
           loop
           autoPlay
           controls
+          preload="none"
+          playsInline
         />
       </div>
 
