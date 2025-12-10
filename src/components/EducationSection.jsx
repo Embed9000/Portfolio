@@ -4,8 +4,8 @@ export const EducationSection = () => {
   const education = [
     {
       type: 'degree',
-      title: 'Bachalavre degree',
-      institution: 'Constantin Stamate Theoretical',
+      title: "Bachelor's degree",
+      institution: 'Constantin Stamati Theoretical',
       year: '2023',
       description:
         'High School Graduated.',
@@ -14,7 +14,7 @@ export const EducationSection = () => {
       type: 'degree',
       title: 'The profession of the future: Game design',
       institution: 'State University of Moldova (USM)',
-      year: 'Currently in 2nd year of a 3-year program',
+      year: 'Currently in 3nd year of a 3-year program',
       description:
         'Specialized in Game Design, scripting and animation programming, as well as UI and sound design.',
     },
