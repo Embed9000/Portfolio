@@ -1,31 +1,31 @@
 import { createProject } from "../../utils/createProject";
 
 // MAIN MEDIA
-import Trailer from "../../../public/videos/anariaReborn/Trailer.mp4";
+import Trailer from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Trailer.mp4";
 
 
 // CABINET
-import CabinetControllerAR from "../../../public/videos/anariaReborn/CabinetControllerAR.mp4";
-import CabinetControllerARE from "../../../public/pdf/anariaReborn/CabinetControllerAR.pdf";
+import CabinetControllerAR from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/CabinetControllerAR.mp4";
+import CabinetControllerARE from "/pdf/anariaReborn/CabinetControllerAR.pdf";
 
 // LOCKER
-import LockerControllerAR from "../../../public/videos/anariaReborn/LockerControllerAR.mp4";
-import LockerControllerARE from "../../../public/pdf/anariaReborn/LockerControllerAR.pdf";
+import LockerControllerAR from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/LockerControllerAR.mp4";
+import LockerControllerARE from "/pdf/anariaReborn/LockerControllerAR.pdf";
 
 // CLOCK
-import ClockController from "../../../public/videos/anariaReborn/ClockController.mp4";
-import ClockControllerA from "../../../public/pdf/anariaReborn/ClockController.pdf";
+import ClockController from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/ClockController.mp4";
+import ClockControllerA from "/pdf/anariaReborn/ClockController.pdf";
 
 // DOLL AI
-import DollAiController from "../../../public/videos/anariaReborn/DollAiController.mp4";
-import DollAiControllerA from "../../../public/pdf/anariaReborn/DollAiController.pdf";
+import DollAiController from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/DollAiController.mp4";
+import DollAiControllerA from "/pdf/anariaReborn/DollAiController.pdf";
 
 // PHONE
-import PhoneController from "../../../public/videos/anariaReborn/PhoneController.mp4";
-import PhoneControllerA from "../../../public/pdf/anariaReborn/PhoneController.pdf";
+import PhoneController from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PhoneController.mp4";
+import PhoneControllerA from "/pdf/anariaReborn/PhoneController.pdf";
 
 // FEATURES
-import Features from "../../../public/videos/anariaReborn/Features.mp4";
+import Features from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Features.mp4";
 
 export default createProject({
   title: "Anaria:REBORN (2025)",

@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "upload-blob": "node tools/uploadBlob.js",
+    "upload-all": "node tools/uploadAllBlobs.js",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

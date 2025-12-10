@@ -1,20 +1,20 @@
 import { createProject } from "../../utils/createProject";
 
 // VIDEO IMPORTS
-import TinyCreaturesMainVideo from "../../../public/videos/bettyAdventure/TinyCreaturesMainVideo.mp4";
-import TinyCreatures from "../../../public/videos/bettyAdventure/Tiny Creatures.mp4";
-import GreenSlime from "../../../public/videos/bettyAdventure/GreenSlime.mp4";
-import IceSlime from "../../../public/videos/bettyAdventure/IceSlime.mp4";
-import FireSlime from "../../../public/videos/bettyAdventure/FireSlime.mp4";
-import PlayerControllerVideo from "../../../public/videos/bettyAdventure/PlayerController.mp4";
-import PlayerAttackVideo from "../../../public/videos/bettyAdventure/PlayerAttack.mp4";
-import TradingSystemVideo from "../../../public/videos/bettyAdventure/TradingSystem.mp4";
+import TinyCreaturesMainVideo from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/TinyCreaturesMainVideo.mp4";
+import TinyCreatures from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Tiny%20Creatures.mp4";
+import GreenSlime from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/GreenSlime.mp4";
+import IceSlime from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/IceSlime.mp4";
+import FireSlime from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/FireSlime.mp4";
+import PlayerControllerVideo from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerController.mp4";
+import PlayerAttackVideo from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerAttack.mp4";
+import TradingSystemVideo from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/TradingSystem.mp4";
 
 // PDF IMPORTS
-import SlimeController from "../../../public/pdf/bettyAdventure/SlimeController.pdf";
-import PlayerControllerPdf from "../../../public/pdf/bettyAdventure/PlayerController.pdf";
-import PlayerAttackPdf from "../../../public/pdf/bettyAdventure/PlayerAttack.pdf";
-import TradingSystemPdf from "../../../public/pdf/bettyAdventure/TradingSystem.pdf";
+import SlimeController from "/pdf/bettyAdventure/SlimeController.pdf";
+import PlayerControllerPdf from "/pdf/bettyAdventure/PlayerController.pdf";
+import PlayerAttackPdf from "/pdf/bettyAdventure/PlayerAttack.pdf";
+import TradingSystemPdf from "/pdf/bettyAdventure/TradingSystem.pdf";
 
 export default createProject({
   title: "Betty's Tiny Adventure (2024)",
