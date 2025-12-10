@@ -2,7 +2,7 @@ import { createProject } from "../../utils/createProject";
 
 // VIDEO IMPORTS
 const TinyCreaturesMainVideo =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/TinyCreaturesMainVideo.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/TinyCreaturesMainVideo-VTIloLNZNxy84nVz0alUI8dioypdUq.mp4";
 
 const TinyCreatures =
   "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Tiny%20Creatures.mp4";
