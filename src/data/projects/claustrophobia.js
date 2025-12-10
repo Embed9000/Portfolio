@@ -42,7 +42,7 @@ The story is that you find yourself in a mental hospital, and after waking up, y
   projectInfo: [
     { label: "Role", value: "Game design" },
     { label: "Team Size", value: "6" },
-    { label: "Time frame", value: "3 Days" },
+    { label: "Working time", value: "3 Days" },
     { label: "Engine", value: "Unity" },
   ],
 

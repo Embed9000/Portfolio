@@ -43,7 +43,7 @@ details: [
   projectInfo: [
     { label: "Role", value: "Game design" },
     { label: "Team Size", value: "6" },
-    { label: "Time frame", value: "3 Days" },
+    { label: "Working time", value: "3 Days" },
     { label: "Engine", value: "Unity" },
   ],
 
