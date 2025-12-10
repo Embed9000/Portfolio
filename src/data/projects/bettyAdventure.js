@@ -5,28 +5,28 @@ const TinyCreaturesMainVideo =
   "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/TinyCreaturesMainVideo-VTIloLNZNxy84nVz0alUI8dioypdUq.mp4";
 
 const TinyCreatures =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Tiny%20Creatures.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Tiny%20Creatures-bL2eV0SUSxNGJ2MjgiYVHhaXd1IzQS.mp4";
 
 const GreenSlimeVideo =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/GreenSlime.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/GreenSlime-YE5rM0yKAYwUBcVIQGAgP9YaEfpjNb.mp4";
 
 const IceSlimeVideo =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/IceSlime.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/IceSlime-x1wlcTAlnGJNY7Q5n6zyWg1pYQepdZ.mp4";
 
 const FireSlimeVideo =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/FireSlime.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/FireSlime-prB66rJWoQcGnZw4tURhDoJtTxRfII.mp4";
 
 const SpawnSlime =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/SpawnSlime.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/SpawnSlime-YrWjZ0hAQaQRkK1u81HkWuyefWsB7Z.mp4";
 
 const PlayerControllerVideoURL =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerController.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerController-Tyv2iR3dtq5NrGAjA7kP1ETGftPkxU.mp4";
 
 const PlayerAttackVideoURL =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerAttack.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerAttack-vbg2qzqpIuoHpDT57Zj9mwG6GGcqtI.mp4";
 
 const TradingSystemVideoURL =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/TradingSystem.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/TradingSystem-h7QZhxJlhyFUiYfmlkkTcBaw0z9zYU.mp4";
 
 
 // PDF IMPORTS

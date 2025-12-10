@@ -2,25 +2,25 @@ import { createProject } from "../../utils/createProject";
 
 //Videos
 const Trailer =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Trailer.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Trailer-xI0MisDUpp6uTAPjkR6t8QI97sSwd0.mp4";
 
 const CabinetControllerAR =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/CabinetControllerAR.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/CabinetControllerAR-qBeSw1PUfLzuoOcaJ1GeBdehb52Pnr.mp4";
 
 const LockerControllerAR =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/LockerControllerAR.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/LockerControllerAR-f1KLud5k8aycXjQcbHdGH7O2CAaHFn.mp4";
 
 const ClockController =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/ClockController.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/ClockController-UvTERmfy5jVU5luNsLfvba3y1PWNGu.mp4";
 
 const DollAiController =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/DollAiController.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/DollAiController-zCwX47Kg0LFZxOwhAjXdCIdrlvOcCO.mp4";
 
 const PhoneController =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PhoneController.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PhoneController-frIHAD2NS9w2jKIpxBp133hVuuHwqP.mp4";
 
 const FeaturesVideo =
-  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Features.mp4";
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Features-tRK9dhoviJzuBNurmE1MwIQYLrgGXp.mp4";
 
 const DoorControllerVideo =
   "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/DoorController-1FycYER3o66Xa54v1yO3YBsDUb4AjH.mp4"

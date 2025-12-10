@@ -8,8 +8,8 @@ export default createProject({
 
 
 
-  videoUrl: "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Anaria.mp4",
-  thumbnailUrl: "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Anaria.mp4",
+  videoUrl: "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Anaria-jbEUPgcnghLkBKIFz2pFEGaRGDK5eX.mp4",
+  thumbnailUrl: "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Anaria-jbEUPgcnghLkBKIFz2pFEGaRGDK5eX.mp4",
 
   details: [
     { icon: "User", text: "1" },
