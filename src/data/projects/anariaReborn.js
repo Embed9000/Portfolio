@@ -1,31 +1,49 @@
 import { createProject } from "../../utils/createProject";
 
-// MAIN MEDIA
-import Trailer from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Trailer.mp4";
+//Videos
+const Trailer =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Trailer.mp4";
+
+const CabinetControllerAR =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/CabinetControllerAR.mp4";
+
+const LockerControllerAR =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/LockerControllerAR.mp4";
+
+const ClockController =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/ClockController.mp4";
+
+const DollAiController =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/DollAiController.mp4";
+
+const PhoneController =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PhoneController.mp4";
+
+const FeaturesVideo =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Features.mp4";
+
+const DoorControllerVideo =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/DoorController-1FycYER3o66Xa54v1yO3YBsDUb4AjH.mp4"
 
 
 // CABINET
-import CabinetControllerAR from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/CabinetControllerAR.mp4";
 import CabinetControllerARE from "/pdf/anariaReborn/CabinetControllerAR.pdf";
 
+//DOOR
+import DoorController from "/pdf/anariaReborn/DoorController.pdf";
+
 // LOCKER
-import LockerControllerAR from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/LockerControllerAR.mp4";
 import LockerControllerARE from "/pdf/anariaReborn/LockerControllerAR.pdf";
 
 // CLOCK
-import ClockController from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/ClockController.mp4";
 import ClockControllerA from "/pdf/anariaReborn/ClockController.pdf";
 
 // DOLL AI
-import DollAiController from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/DollAiController.mp4";
 import DollAiControllerA from "/pdf/anariaReborn/DollAiController.pdf";
 
 // PHONE
-import PhoneController from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PhoneController.mp4";
 import PhoneControllerA from "/pdf/anariaReborn/PhoneController.pdf";
 
-// FEATURES
-import Features from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Features.mp4";
 
 export default createProject({
   title: "Anaria:REBORN (2025)",
@@ -88,6 +106,14 @@ In short, this code combines interaction logic, animations, audio, and gameplay 
         CabinetControllerARE,
       ],
     },
+    {
+      label: "DoorController",
+      value: [
+        `This script fully manages a door’s behavior in the game. It handles opening and closing the door, locking it if the player doesn’t have the key, performing a “scary open” with a special sound effect, and even triggering a jumpscare by spawning a monster and repositioning the player. The script controls all associated sounds, manages cooldowns between interactions, and handles key-based interactions. It also detects if the player is within the doll’s hearing range and adjusts behavior accordingly.In short: the door can be opened, closed, locked, scary-opened, or used for a jumpscare, with full visual and audio feedback, while controlling player interaction and timing.`,
+        DoorControllerVideo,
+        DoorController,
+      ],
+    },
 
     {
       label: "Locker Controller",
@@ -138,7 +164,7 @@ In short: The player can interact with the phone, hear appropriate sounds, trigg
 The game also features a robust save/load system using PlayerPrefs, customizable input including keyboard and gamepad support, and intuitive menus. Cinematics are fully scripted to move and rotate the player character precisely to enhance atmosphere. A single TriggerEvent script allows for flexible activation of game events, such as opening or dropping doors, starting jumpscares, triggering animations, or activating/deactivating objects, based on gameplay needs.
 Graphics settings range from Low to Medium and High, with options for language, resolution, fullscreen mode, FPS cap, and camera comfort features like Camera Shake toggle. Audio settings include master, music, voice, and SFX volume controls, allowing the player to fine-tune their experience.
 `,
-        Features,
+        FeaturesVideo,
       ],
     },
 
@@ -169,7 +195,6 @@ Spanish: W / A / S / D → Moverse
 
 This ensures an accessible and intuitive experience for players worldwide.
 `,
-        Features,
       ],
     },
 

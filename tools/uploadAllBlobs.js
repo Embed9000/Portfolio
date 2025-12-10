@@ -1,38 +1,45 @@
-import { put } from "@vercel/blob";
 import fs from "fs";
 import path from "path";
+import { put } from "@vercel/blob";
 
-async function uploadVideo(filePath) {
-  const fileBuffer = fs.readFileSync(filePath);
+const ROOT = "public/videos";
 
-  // EXTRACT NUMELE FIȘIERULUI
-  const blobName = path.basename(filePath);
+// ====================================================================
+// 1. Citește recursiv toate fișierele din toate folderele
+// ====================================================================
+function getAllFiles(dir) {
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
 
-  const { url } = await put(blobName, fileBuffer, {
-    access: "public",
-    allowOverwrite: true,
+  const files = entries.flatMap((entry) => {
+    const res = path.resolve(dir, entry.name);
+    return entry.isDirectory() ? getAllFiles(res) : res;
   });
 
-  console.log(`Uploaded: ${blobName} → ${url}`);
+  return files;
 }
 
+// ====================================================================
+// 2. Upload pentru fiecare fișier
+// ====================================================================
 async function uploadAll() {
-  const folders = [
-    "./public/videos/anaria",
-    "./public/videos/anariaReborn",
-    "./public/videos/bettyAdventure",
-  ];
+  const files = getAllFiles(ROOT);
 
-  for (const folder of folders) {
-    const files = fs.readdirSync(folder);
+  console.log("Total files found:", files.length);
 
-    for (const file of files) {
-      const fullPath = path.join(folder, file);
+  for (const filePath of files) {
+    const blobName = path.basename(filePath);
 
-      // doar fișiere video
-      if (file.toLowerCase().endsWith(".mp4")) {
-        await uploadVideo(fullPath);
-      }
+    const buffer = fs.readFileSync(filePath);
+
+    try {
+      const { url } = await put(blobName, buffer, {
+        access: "public",
+        addRandomSuffix: true, // prevenim coliziuni
+      });
+
+      console.log("Uploaded:", blobName, "→", url);
+    } catch (err) {
+      console.error("Error uploading:", blobName, err.message);
     }
   }
 }

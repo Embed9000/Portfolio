@@ -1,15 +1,20 @@
 import { createProject } from "../../utils/createProject";
 
 // VIDEOS
-import Detectivia from "../../../public/videos/detectivia/Detectivitatea.mp4";
+const Detectivia =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Detectivitatea-Y1UwPWXFBsMmDFznrDX4JxKs9tzX3W.mp4";
+
+const NpcControllerD =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/NpcControllerD-DrYcFsmQTs7TFIM5DASOOBxhNGFLCQ.mp4";
+
+const CaseFile =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/CaseFile-EIzhwGWgIXYWaeYKo1GWn5MqOMD0TZ.mp4";
 
 // PDFs & CODES
-import CodeAiConection from "../../../public/pdf/detectivia/AiConection.pdf";
-import VoiceToText from "../../../public/pdf/detectivia/VoiceToText.pdf";
-import NpcControllerD from "../../../public/videos/detectivia/NpcControllerD.mp4";
-import NpcControllerDe from "../../../public/pdf/detectivia/NpcControllerD.pdf";
-import CaseFile from "../../../public/videos/detectivia/CaseFile.mp4";
-import CaseFileD from "../../../public/pdf/detectivia/CaseFile.pdf";
+import CodeAiConection from "/pdf/detectivia/AiConection.pdf";
+import VoiceToText from "/pdf/detectivia/VoiceToText.pdf";
+import NpcControllerDe from "/pdf/detectivia/NpcControllerD.pdf";
+import CaseFileD from "/pdf/detectivia/CaseFile.pdf";
 
 export default createProject({
   title: "Detectivia (2025)",

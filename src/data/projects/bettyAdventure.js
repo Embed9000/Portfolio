@@ -1,18 +1,38 @@
 import { createProject } from "../../utils/createProject";
 
 // VIDEO IMPORTS
-import TinyCreaturesMainVideo from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/TinyCreaturesMainVideo.mp4";
-import TinyCreatures from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Tiny%20Creatures.mp4";
-import GreenSlime from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/GreenSlime.mp4";
-import IceSlime from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/IceSlime.mp4";
-import FireSlime from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/FireSlime.mp4";
-import PlayerControllerVideo from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerController.mp4";
-import PlayerAttackVideo from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerAttack.mp4";
-import TradingSystemVideo from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/TradingSystem.mp4";
+const TinyCreaturesMainVideo =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/TinyCreaturesMainVideo.mp4";
+
+const TinyCreatures =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Tiny%20Creatures.mp4";
+
+const GreenSlimeVideo =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/GreenSlime.mp4";
+
+const IceSlimeVideo =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/IceSlime.mp4";
+
+const FireSlimeVideo =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/FireSlime.mp4";
+
+const SpawnSlime =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/SpawnSlime.mp4";
+
+const PlayerControllerVideoURL =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerController.mp4";
+
+const PlayerAttackVideoURL =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerAttack.mp4";
+
+const TradingSystemVideoURL =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/TradingSystem.mp4";
+
 
 // PDF IMPORTS
-import SlimeController from "/pdf/bettyAdventure/SlimeController.pdf";
+import SlimeControllerPdf from "/pdf/bettyAdventure/SlimeController.pdf";
 import PlayerControllerPdf from "/pdf/bettyAdventure/PlayerController.pdf";
+import SpawnSlimePdf from "/pdf/bettyAdventure/spawnSlime.pdf";
 import PlayerAttackPdf from "/pdf/bettyAdventure/PlayerAttack.pdf";
 import TradingSystemPdf from "/pdf/bettyAdventure/TradingSystem.pdf";
 
@@ -68,15 +88,14 @@ You can pick up the slime by pressing “E” if it’s sleeping and nearby, and
 When inside the pen, the slime moves randomly randomly within it.
 In short, the slime has a full behavior system: it moves, attacks, sleeps, can be picked up and put into a pen, takes damage, regenerates, produces crystals, and can hurt the player if aggressive or if you let it go wild.
 `,
-        GreenSlime,
-        IceSlime,
-        FireSlime,
+        GreenSlimeVideo,
+        IceSlimeVideo,
+        FireSlimeVideo,
       ],
     },
 
     {
-      label: "Code-SlimeController",
-      value: SlimeController,
+      value:SlimeControllerPdf,
     },
 
     {
@@ -84,7 +103,20 @@ In short, the slime has a full behavior system: it moves, attacks, sleeps, can b
       value: [
         `This script manages the spawning of slimes in the game, making sure there aren’t more slimes than the maximum allowed (maxMobSpawn).
 At the start, it sets a random cooldown timer somewhere between 60% and 100% of the specified spawnTimer. Every frame, it checks if the current number of slimes is`,
-        PlayerControllerVideo,
+        SpawnSlime,
+        SpawnSlimePdf,
+      ],
+    },
+
+    {
+      label: "Player Controller",
+      value: [
+        `The player moves using the W, A, S, and D keys, with diagonal movement being a bit slower to keep it smooth and balanced. Movement input is read each frame, and the character’s Rigidbody2D is moved accordingly in FixedUpdate.
+The script also handles the player’s health regeneration based on distance from their home—closer means faster healing, farther means slower or no healing.
+Regarding slimes, the script constantly tracks if the player is near a "slime pen" area and finds the closest slime pen object. This is important because it lets the player interact with slimes, like picking them up, dropping them off, or managing them inside the slime pen. The script keeps count of how many slimes the player currently has and updates this as the player interacts with the world.
+There’s also handling for damage the player takes, including freezing effects and playing damage animations and sounds. When the player collects crystals (like green, fire, ice, or gold), it updates the UI and plays collection sounds.
+So basically, this script controls how the player moves, manages health, takes damage, and interacts specifically with slime pens and crystals in the game world`,
+        PlayerControllerVideoURL,
         PlayerControllerPdf,
       ],
     },
@@ -97,7 +129,7 @@ While attacking, the player’s speed gets a small boost to make the movement fe
 It also tracks when the player can be hit (getAttack), using a cooldown to prevent getting attacked repeatedly without a break.
 In short: it controls when and how the player attacks, manages the timing for when the player can take damage, and handles speed changes, animation, and sound effects during the attack.
 `,
-        PlayerAttackVideo,
+        PlayerAttackVideoURL,
         PlayerAttackPdf,
       ],
     },
@@ -109,7 +141,7 @@ In short: it controls when and how the player attacks, manages the timing for wh
 It also also handles buying upgrades or items at special shops. If the player has enough coins and presses E near the shop, the script deducts deducts the coins, unlocks the upgrade (like changing the player’s attack type type), and plays a sound and animation to confirm the purchase. If they don’t have enough coins, it plays a sound to let them know.
 The script constantly checks the player’s distance to the shop or seller to show or hide hide UI prompts and activate or deactivate sounds, so trading only happens when the player is close enough and interacts by pressing the correct key.
 In short, this single system smoothly controls how the player sells resources and buys upgrades, keeping keeping the game economy and player progression in sync through intuitive intuitive proximity and input checks.`,
-        TradingSystemVideo,
+        TradingSystemVideoURL,
         TradingSystemPdf,
       ],
     },

@@ -1,24 +1,24 @@
 import { createProject } from "../../utils/createProject";
 
 // VIDEOS
-import KokomarkaMainVideo from "../../../public/videos/kokomarka/KokomarkaMainVideo.mp4";
-import KokomarkaThumb from "../../../public/videos/kokomarka/Cocomarka.mp4";
+import KokomarkaMainVideo from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/KokomarkaMainVideo-2YhKxTFAHYJ8lWseGcZELMIeK36k9l.mp4";
+import KokomarkaThumb from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/KokomarkaMainVideo-2YhKxTFAHYJ8lWseGcZELMIeK36k9l.mp4";
 
-import PlayerControllerKoko from "../../../public/videos/kokomarka/PlayerControllerKoko.mp4";
-import LevelUp from "../../../public/videos/kokomarka/LevelUp.mp4";
-import NpcController from "../../../public/videos/kokomarka/NpcController.mp4";
-import EnemyControlller from "../../../public/videos/kokomarka/EnemyControlller.mp4";
-import BossController from "../../../public/videos/kokomarka/BossController.mp4";
-import ProjectileController from "../../../public/videos/kokomarka/ProjectileController.mp4";
+import PlayerControllerKoko from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerControllerKoko-xCVX1kLBHDhbOWUhxycjuG6MNNlP3u.mp4";
+import LevelUp from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/LevelUp-wgKSn0NzWN1PgzHdvrWqjxRScWly4I.mp4";
+import NpcController from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/NpcController-i0MM2tHkH6cMMwg1tRLvv4KT2PiOQS.mp4";
+import EnemyControlller from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/EnemyControlller-8cIp2sLgP1cfs2Z34sgappDnfEwBpA.mp4";
+import BossController from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/BossController-OG281s91kUvvBhPPpualQNLeThYogD.mp4";
+import ProjectileController from "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/ProjectileController-n1TfGInXNOh9Jv7Lz8ZdUOSxYVNbdB.mp4";
 
 // PDFs
-import PlayerControllerKokopdf from "../../../public/pdf/kokomarka/playerControllerKoko.pdf";
-import StatsPlayerK from "../../../public/pdf/kokomarka/StatsPlayerK.pdf";
-import LevelUpManagerK from "../../../public/pdf/kokomarka/LevelUpManagerK.pdf";
-import NpcControllerK from "../../../public/pdf/kokomarka/NpcControllerK.pdf";
-import EnemyControllerK from "../../../public/pdf/kokomarka/EnemyControllerK.pdf";
-import BossControllerK from "../../../public/pdf/kokomarka/BossControllerK.pdf";
-import ProjectileControllerK from "../../../public/pdf/kokomarka/ProjectileControllerK.pdf";
+import PlayerControllerKokopdf from "/pdf/kokomarka/playerControllerKoko.pdf";
+import StatsPlayerK from "/pdf/kokomarka/StatsPlayerK.pdf";
+import LevelUpManagerK from "/pdf/kokomarka/LevelUpManagerK.pdf";
+import NpcControllerK from "/pdf/kokomarka/NpcControllerK.pdf";
+import EnemyControllerK from "/pdf/kokomarka/EnemyControllerK.pdf";
+import BossControllerK from "/pdf/kokomarka/BossControllerK.pdf";
+import ProjectileControllerK from "/pdf/kokomarka/ProjectileControllerK.pdf";
 
 export default createProject({
   title: "Kokomarka (2025)",

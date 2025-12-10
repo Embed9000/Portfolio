@@ -1,13 +1,24 @@
 import { createProject } from "../../utils/createProject";
 
 // VIDEOS
-import MainVideoClaustrophobia from "../../../public/videos/claustrophobia/MainVideoClaustrophobia.mp4";
-import ClaustraphobiaThumb from "../../../public/videos/claustrophobia/claustrofobie.mp4";
+const MainVideoClaustrophobia =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/MainVideoClaustrophobia-M6x0a7PoPj4OXXPnXh8MHxBOUm4kg7.mp4";
 
-import PlayerControllerClaustrophobia from "../../../public/videos/claustrophobia/PlayerControllerC.mp4";
-import WindowSystemClaustrophobia from "../../../public/videos/claustrophobia/WindowSystem.mp4";
-import FakeExitController from "../../../public/videos/claustrophobia/FakeExitSystem.mp4";
-import InventorySystem from "../../../public/videos/claustrophobia/InventorySystem.mp4";
+const ClaustraphobiaThumb =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/claustrofobie-vz9xO7ltGZD5HuS7la475Hcpl9b3Fu.mp4";
+
+const PlayerControllerClaustrophobia =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerControllerC-Y7CTzU89l1hjXlSYelcRSLEYSR541m.mp4";
+
+const WindowSystemClaustrophobia =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/WindowSystem-watkAsG9a7D1OGGumqCUi2HwXALy29.mp4";
+
+const FakeExitController =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/FakeExitSystem-YJn1jMlcj7Yt2Y5Pr3oq480H6p6GDL.mp4";
+
+const InventorySystem =
+  "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/InventorySystem-jyzv6k2rsSfWvZsdqwQUZRQDLAefwn.mp4";
+
 
 export default createProject({
   title: "Claustraphobia (2023)",

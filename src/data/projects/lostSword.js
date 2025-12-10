@@ -1,27 +1,27 @@
 import { createProject } from "../../utils/createProject";
 
 // VIDEOS
-import LostSword from "../../../public/videos/lostSword/Lost sword.mp4";
+const LostSword = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/Lost%20sword-E8EWqTKm9EOwthf6pYRXhBagT2lbkR.mp4";
 
 // PLAYER
-import PlayerAttackL from "../../../public/videos/lostSword/PlayerAttackL.mp4";
-import PlayerAttackLo from "../../../public/pdf/lostSword/PlayerAttackLo.pdf";
-import PlayerStats from "../../../public/videos/lostSword/PlayerStats.mp4";
-import PlayerStatsL from "../../../public/pdf/lostSword/StatsPlayer.pdf";
+const PlayerAttackL = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerAttackL-1V4kjiRsd1ySXkU7WdnOwusrzuZ2dB.mp4";
+import PlayerAttackLo from "/pdf/lostSword/PlayerAttackLo.pdf";
+const PlayerStats = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/PlayerStats-0RTYIOJGdAPEDo5vFC8RV9GZyJpmu0.mp4";
+import PlayerStatsL from "/pdf/lostSword/StatsPlayer.pdf";
 
 // INVENTORY
-import InventorySystemL from "../../../public/videos/lostSword/InventorySystemL.mp4";
-import InventorySystemLo from "../../../public/pdf/lostSword/InventorySystemL.pdf";
+const InventorySystemL = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/InventorySystemL-EBS2PR2EkIUXV0fh8eLYaiT8C98FaJ.mp4";
+import InventorySystemLo from "/pdf/lostSword/InventorySystemL.pdf";
 
 // ENEMY
-import EnemyControllerL from "../../../public/videos/lostSword/EnemyControllerL.mp4";
-import EnemyControllerLo from "../../../public/pdf/lostSword/EnemyControllerL.pdf";
+const EnemyControllerL = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/EnemyControllerL-DLQ3fUBJueMO5QstdunxQqmbytBzAs.mp4";
+import EnemyControllerLo from "/pdf/lostSword/EnemyControllerL.pdf";
 
 // GUILD
-import GuildSystem from "../../../public/videos/lostSword/GuildSystem.mp4";
+const GuildSystem = "https://ecmlkuxxaw5nvx0f.public.blob.vercel-storage.com/GuildSystem-jhsiCf9KPZHVnChPznrU9RaopQ2kfC.mp4";
 
 // THESIS
-import AnualTezis from "../../../public/pdf/lostSword/anualtezis.pdf";
+import AnualTezis from "/pdf/lostSword/anualtezis.pdf";
 
 export default createProject({
   title: "Lost Sword (2025)",
